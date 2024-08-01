@@ -1,0 +1,48 @@
+* {
+
+}
+
+
+.main {
+    background-color: darkgrey;
+    width: 90%;
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+a {
+    align-self: flex-end;
+    
+    
+}
+
+.profile-picture {
+    width: 400px;
+    height: 400px;
+    align-self: flex-end;
+    border-radius: 200px;
+}
+
+.skills-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.quote {
+    background-color: burlywood;
+    padding: 10px;
+    width: 80%;
+    margin-left: 110px;
+}
+
+.contact {
+    background-color: cornflowerblue;
+    padding: 10px;
+    width: 60%;
+    margin-left: 190px;
+}
