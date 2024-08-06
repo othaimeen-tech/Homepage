@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
 .logo h1{
     font-size: 60px;
     font-weight: bolder;
@@ -10,6 +15,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+   
 
 }
 
@@ -22,6 +28,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 25px;
 }
 
 .links {
@@ -45,6 +52,7 @@ ul {
 .main {
     background-color: #1f2937;
     box-sizing: border-box;
+    padding: 10px;
     height: 100vh;
 
 }
@@ -54,9 +62,12 @@ ul {
     justify-content: center;
     align-items: flex-end;
     gap: 30px;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
+#text {
+    padding-bottom: 40px;
+}
 
 .content img {
     width: 500px;
@@ -138,7 +149,14 @@ figcaption {
 
 .call {
     background-color: #3882f6;
-    border-radius: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
+    height: 130px;
+    flex-wrap: wrap;
+    margin: 120px;
 }
 
 .call h1{
@@ -158,15 +176,21 @@ figcaption {
 .call button {
     background-color: inherit;
     border: 1px solid #fff;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 8px;
     width: 120px;
     color: #fff;
-    float: right;
-    margin-bottom: 120px;
-    
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 
 }
+
+.call button:hover {
+    border-color: rgb(28, 230, 230);
+    color: darkblue;
+}
+
 
 
 
@@ -175,8 +199,9 @@ figcaption {
     background-color: #1f2937;
     color: #fff;
     font-size: 20px;
-    padding: 20px;
-    margin-top: 50 px;
     text-align: center;
+    padding: 40px;
+
+
 }
 
